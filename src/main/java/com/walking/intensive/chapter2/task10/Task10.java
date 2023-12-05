@@ -7,7 +7,6 @@ public class Task10 {
     public static void main(String[] args) {
         String inputString = "Was/.' it a cat7654 I saw?";
         System.out.println(isPalindrome(inputString));
-
     }
 
     static boolean isPalindrome(String inputString) {
@@ -25,7 +24,6 @@ public class Task10 {
         if (modifiedString.equalsIgnoreCase(modifiedStringReverse)) {
             return true;
         }
-
         return false;
     }
 }
